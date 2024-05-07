@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: "Cormorant Garamond", serif;
+        font-weight: 400;
+        font-style: italic;
+}
+.hr{
+    color: #999999;
+    display: flex;
+    align-items: center;
+}
+.hr img{
+    width: 30px;
+    height: 30px;
+}
+.one{
+    display: flex;
+    justify-content: space-around;
+}
+.one img{
+    width: 50px;
+    height: 50px;
+}
+.hrr{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hrr h2{
+    text-decoration: line-through;
+}
+.hrr p{
+    font-weight: bold;
+    font-size: medium;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #333333;
+    padding-left: 50px;
+    padding-right: 50px;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    border-bottom: #333333;
+    border-radius: 5px;
+}
+.content p{
+    width: 400px;
+    margin: 20px;
+    border: solid black 2px;
+    padding: 20px;
+}
+.content p:hover{
+    font-size: large;
+    cursor: pointer;
+}
+.content{
+    background-color: lightgray;
+    padding: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-bottom: #999999;
+    border-radius: 5px;
+}
+.vid video{
+    width: 300px;
+    height: 250px;
+}
+.cc button{
+    margin-left: 300px;
+    background-color: transparent;
+    color: black;
+    border: none;
+    font-family: "Cormorant Garamond", serif;
+}
+.cc button:hover{
+    cursor: pointer;
+    color: black;
+    font-size: medium;
+}
+.cc0 img{
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+}
+.cc h5{
+    margin-left: 300px;
+    font-size: larger;
+}
+.cc a{
+    text-decoration: none;
+    color: black;
+}
+.cc1 img{
+    width: 100px;
+    height: 100px;
+}
+.cc1{
+    width: 150px;
+    border: solid grey 2px;
+    background-color: gray;
+    color: black;
+    font-size: medium;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 5px;
+}
+.coursecard{
+    display: flex;
+    gap: 40px;
+    margin-left: 400px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #333333;
+    padding-left: 50px;
+    padding-right: 50px;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-top: #333333 solid 2px;
+    border-radius: 5px;
+}
+.full{
+    background-color: black;
+}

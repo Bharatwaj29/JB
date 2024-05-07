@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+}
+.i1{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.i1 img{
+    border: greenyellow solid 1px;
+    width: 200px;
+    height: 300px;
+}
+.i2{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.i2 img{
+    border: greenyellow solid 1px;
+    width: 200px;
+    height: 300px;
+}

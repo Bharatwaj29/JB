@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+}
+.u1{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.u1 img{
+    border: greenyellow solid 1px;
+    width: 300px;
+    height: fit-content;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.u2{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.u2 img{
+    border: greenyellow solid 1px;
+    width: 250px;
+    height: fit-content;
+}
+.u3{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.u3 img{
+    border: greenyellow solid 1px;
+    width: 250px;
+    height: fit-content;
+}
